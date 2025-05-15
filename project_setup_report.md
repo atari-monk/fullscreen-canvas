@@ -110,7 +110,7 @@
 
 * `README.md`:
 
-  ```markdown
+  ````markdown
   Installation
   ```bash
   npm install @atari-monk/fullscreen-canvas
@@ -121,6 +121,8 @@
   ```jsx
   import { FullscreenCanvas } from "@atari-monk/fullscreen-canvas";
   import "@atari-monk/fullscreen-canvas/FullscreenCanvas.css";
+  ```
+
   ```
   ```
 
