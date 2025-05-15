@@ -13,4 +13,4 @@ import "@atari-monk/fullscreen-canvas/FullscreenCanvas.css";
 
 ## [Project Setup Report](project_setup_report.md)
 
-## [Demo](index.html)
+## [Demo](demo.html)
