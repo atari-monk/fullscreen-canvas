@@ -1,15 +1,37 @@
 {
-  "name": "fullscreen-canvas",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@atari-monk/fullscreen-canvas",
+  "private": false,
+  "version": "0.0.19",
   "type": "module",
+  "main": "./dist/FullscreenCanvas.umd.js",
+  "module": "./dist/FullscreenCanvas.es.js",
+  "types": "./dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/FullscreenCanvas.es.js",
+      "require": "./dist/FullscreenCanvas.umd.js"
+    },
+    "./FullscreenCanvas.css": "./dist/FullscreenCanvas.css"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:lib": "vite build --config vite.publish.config.ts",
+    "prepublishOnly": "npm run build:lib"
+  },
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "dependencies": {
+    "@atari-monk/fullscreen-canvas": "^0.0.18",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
@@ -24,6 +46,25 @@
     "globals": "^16.0.0",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.30.1",
-    "vite": "^6.3.5"
-  }
+    "vite": "^6.3.5",
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "license": "MIT",
+  "description": "Fullscreen Canvas React Component for mobile and pc",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atari-monk/fullscreen-canvas.git"
+  },
+  "keywords": [
+    "React",
+    "Component"
+  ],
+  "author": "atari-monk",
+  "bugs": {
+    "url": "https://github.com/atari-monk/fullscreen-canvas/issues"
+  },
+  "homepage": "https://github.com/atari-monk/fullscreen-canvas#readme"
 }

@@ -1,5 +1,6 @@
 import "./App.css";
-import { FullscreenCanvas } from "./FullscreenCanvas";
+import { FullscreenCanvas } from "@atari-monk/fullscreen-canvas";
+import "@atari-monk/fullscreen-canvas/FullscreenCanvas.css";
 
 function draw(
     ctx: CanvasRenderingContext2D,
