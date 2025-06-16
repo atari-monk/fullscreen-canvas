@@ -445,7 +445,7 @@ function App() {
             setCurrentSchemeIndex(
                 (prevIndex) => (prevIndex + 1) % schemes.length
             );
-        }, 10000); // Change every 10 seconds
+        }, 4000); // Change every 10 seconds
 
         return () => clearInterval(interval);
     }, [schemes.length]);
