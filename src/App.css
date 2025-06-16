@@ -1,0 +1,23 @@
+.scheme-info {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    z-index: 100;
+}
+
+.scheme-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.scheme-progress {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    text-align: right;
+}

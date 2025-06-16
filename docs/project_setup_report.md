@@ -1,10 +1,6 @@
-Great! Here's your full report based on the session:
+# Project Setup Report: `fullscreen-canvas`
 
----
-
-## Project Setup Report: `fullscreen-canvas`
-
-### 📁 Repository Initialization & Setup
+## 📁 Repository Initialization & Setup
 
 * **Repository Name:** `fullscreen-canvas`
 * **Project Directory:** `C:\atari-monk\code\react`
@@ -20,7 +16,7 @@ Great! Here's your full report based on the session:
   ```
 * **Confirmed:** Page renders correctly.
 
-### 🧹 Cleanup
+## 🧹 Cleanup
 
 * Cleared `App.css` and `index.css`.
 * Updated `App.tsx`:
@@ -49,7 +45,7 @@ Great! Here's your full report based on the session:
   }
   ```
 
-### 🧩 Component Integration
+## 🧩 Component Integration
 
 * Added `FullscreenCanvas.css` and `FullscreenCanvas.tsx` from
   [https://atari-monk.github.io/dev-blog/content/react/fullscreen-canvas/fullscreen-canvas/](https://atari-monk.github.io/dev-blog/content/react/fullscreen-canvas/fullscreen-canvas/)
@@ -57,7 +53,7 @@ Great! Here's your full report based on the session:
   [https://atari-monk.github.io/dev-blog/content/react/fullscreen-canvas/stars/](https://atari-monk.github.io/dev-blog/content/react/fullscreen-canvas/stars/)
 * Confirmed functionality with `npm run dev`.
 
-### 📦 Library Build & Packaging
+## 📦 Library Build & Packaging
 
 * Installed Vite plugin for TypeScript declarations:
 
@@ -103,7 +99,7 @@ Great! Here's your full report based on the session:
   npm run build:lib
   ```
 
-### 📄 Docs & Metadata
+## 📄 Docs & Metadata
 
 * `.npmignore`:
 
@@ -115,12 +111,12 @@ Great! Here's your full report based on the session:
 * `README.md`:
 
   ````markdown
-  ## Installation
+  Installation
   ```bash
   npm install @atari-monk/fullscreen-canvas
   ````
 
-  ## Usage
+  Usage
 
   ```jsx
   import { FullscreenCanvas } from "@atari-monk/fullscreen-canvas";
@@ -130,7 +126,7 @@ Great! Here's your full report based on the session:
   ```
   ```
 
-### 🚀 Publishing
+## 🚀 Publishing
 
 * Initialized NPM scope:
 
